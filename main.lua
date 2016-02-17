@@ -199,7 +199,7 @@ function update()
 end
 
 function position()
-	-- "it" positioning
+	-- "es" positioning
 	local xpadding = (display.contentWidth - ((it.width / 2) * 11)) / 2
 	it.x = xpadding + (it.width / 2)
 	local ypadding = (display.contentHeight - ((it.height / 3) * 10) - 10 * (it.height / 3)) / 2
@@ -304,7 +304,7 @@ function position()
 	tenNum.y = nineNum.y
 	elevenNum.y = nineNum.y
 
-	--line 10
+	-- line 10
 	twelveNum.y = tenNum.y + tenNum.height / 3 + twelveNum.height / 3
 	extra5.y = twelveNum.y
 	oclock.y = twelveNum.y
