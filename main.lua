@@ -1,56 +1,65 @@
 -- always on
-local it = display.newText("ES", 0, 0, "mono.ttf", 40)
-local is = display.newText("IST", 0, 0, "mono.ttf", 40)
+local it = display.newText("ES", 0, 0, "mono.ttf", 36)
+local is = display.newText("IST", 0, 0, "mono.ttf", 36)
 
 -- initializes extra stuff
-local extra1 = display.newText("K", 0, 0, "mono.ttf", 40)
+local extra1 = display.newText("LW", 0, 0, "mono.ttf", 36)
 extra1:setFillColor(.25)
 
-local extra2 = display.newText("A", 0, 0, "mono.ttf", 40)
+local extra2 = display.newText("XYK", 0, 0, "mono.ttf", 36)
 extra2:setFillColor(.25)
 
-local extra3 = display.newText("XÄM", 0, 0, "mono.ttf", 40)
+local extra3 = display.newText("WAXONI", 0, 0, "mono.ttf", 36)
 extra3:setFillColor(.25)
 
-local extra4 = display.newText("L", 0, 0, "mono.ttf", 40)
+local extra4 = display.newText("LFZI", 0, 0, "mono.ttf", 36)
 extra4:setFillColor(.25)
 
-local extra5 = display.newText("UNK", 0, 0, "mono.ttf", 40)
+local extra5 = display.newText("SLYMBQ", 0, 0, "mono.ttf", 36)
 extra5:setFillColor(.25)
 
-local extra6 = display.newText("TO", 0, 0, "mono.ttf", 40)
+local extra6 = display.newText("MONTY", 0, 0, "mono.ttf", 36)
 extra6:setFillColor(.25)
 
-local extra7 = display.newText("M", 0, 0, "mono.ttf", 40);
+local extra7 = display.newText("RNGO", 0, 0, "mono.ttf", 36)
 extra7:setFillColor(.25)
 
-local extra8 = display.newText("AUJ", 0, 0, "mono.ttf", 40);
+local extra8 = display.newText("WAXOFF", 0, 0, "mono.ttf", 36)
 extra8:setFillColor(.25)
 
+local extra9 = display.newText("GLS", 0, 0, "mono.ttf", 36)
+extra9:setFillColor(.25)
+
+local extra10 = display.newText("NCP", 0, 0, "mono.ttf", 36)
+extra10:setFillColor(.25)
+
+local extra11 = display.newText("LUA", 0, 0, "mono.ttf", 36)
+extra11:setFillColor(.25)
+
 -- initializes top text variables
-local half = display.newText("HALB", 0, 0, "mono.ttf", 40)
-local und = display.newText("UND", 0, 0, "mono.ttf", 40)
-local ten = display.newText("ZEHN", 0, 0, "mono.ttf", 40)
-local quarter = display.newText("VIERTEL", 0, 0, "mono.ttf", 40)
-local twenty = display.newText("ZWANZIG", 0, 0, "mono.ttf", 40)
-local five = display.newText("FÜNF", 0, 0, "mono.ttf", 40)
-local past = display.newText("NACH", 0, 0, "mono.ttf", 40)
-local to = display.newText("VOR", 0, 0, "mono.ttf", 40)
+local half = display.newText("HALB", 0, 0, "mono.ttf", 36)
+local und = display.newText("UND", 0, 0, "mono.ttf", 36)
+local ten = display.newText("ZEHN", 0, 0, "mono.ttf", 36)
+local quarter = display.newText("VIERTEL", 0, 0, "mono.ttf", 36)
+local twenty = display.newText("ZWANZIG", 0, 0, "mono.ttf", 36)
+local five = display.newText("FÜNF", 0, 0, "mono.ttf", 36)
+local past = display.newText("NACH", 0, 0, "mono.ttf", 36)
+local to = display.newText("VOR", 0, 0, "mono.ttf", 36)
 
 -- initializes bottom text variables
-local oneNum = display.newText("EINS", 0, 0, "mono.ttf", 40)
-local twoNum = display.newText("ZWEI", 0, 0, "mono.ttf", 40)
-local threeNum = display.newText("DREI", 0, 0, "mono.ttf", 40)
-local fourNum = display.newText("VIER", 0, 0, "mono.ttf", 40)
-local fiveNum = display.newText("FÜNF", 0, 0, "mono.ttf", 40)
-local sixNum = display.newText("SECHS", 0, 0, "mono.ttf", 40)
-local sevenNum = display.newText("SIEBEN", 0, 0, "mono.ttf", 40)
-local eightNum = display.newText("ACHT", 0, 0, "mono.ttf", 40)
-local nineNum = display.newText("NEUN", 0, 0, "mono.ttf", 40)
-local tenNum = display.newText("ZEHN", 0, 0, "mono.ttf", 40)
-local elevenNum = display.newText("ELF", 0, 0, "mono.ttf", 40)
-local twelveNum = display.newText("ZWÖLF", 0, 0, "mono.ttf", 40)
-local oclock = display.newText("UHR", 0, 0, "mono.ttf", 40)
+local oneNum = display.newText("EINS", 0, 0, "mono.ttf", 36)
+local twoNum = display.newText("ZWEI", 0, 0, "mono.ttf", 36)
+local threeNum = display.newText("DREI", 0, 0, "mono.ttf", 36)
+local fourNum = display.newText("VIER", 0, 0, "mono.ttf", 36)
+local fiveNum = display.newText("FÜNF", 0, 0, "mono.ttf", 36)
+local sixNum = display.newText("SECHS", 0, 0, "mono.ttf", 36)
+local sevenNum = display.newText("SIEBEN", 0, 0, "mono.ttf", 36)
+local eightNum = display.newText("ACHT", 0, 0, "mono.ttf", 36)
+local nineNum = display.newText("NEUN", 0, 0, "mono.ttf", 36)
+local tenNum = display.newText("ZEHN", 0, 0, "mono.ttf", 36)
+local elevenNum = display.newText("ELF", 0, 0, "mono.ttf", 36)
+local twelveNum = display.newText("ZWÖLF", 0, 0, "mono.ttf", 36)
+local oclock = display.newText("UHR", 0, 0, "mono.ttf", 36)
 
 function toggleHour(hour)
 	if hour == 1 then
@@ -200,7 +209,7 @@ end
 
 function position()
 	-- "es" positioning
-	local xpadding = (display.contentWidth - ((it.width / 2) * 11)) / 2
+	local xpadding = (display.contentWidth - ((it.width / 2) * 14)) / 2
 	it.x = xpadding + (it.width / 2)
 	local ypadding = (display.contentHeight - ((it.height / 3) * 10) - 10 * (it.height / 3)) / 2
 	it.y = ypadding + (it.height / 3)
@@ -220,11 +229,13 @@ function position()
 
 	-- line 3
 	ten.x = it.x - it.width / 2 + past.width / 2
-	twenty.x = ten.x + ten.width / 2 + twenty.width / 2
+	extra9.x = ten.x + ten.width / 2 + extra9.width / 2
+	twenty.x = extra9.x + extra9.width / 2 + twenty.width / 2
 
 	-- line 4
 	half.x = it.x - it.width / 2 + half.width / 2
-	to.x = half.x + half.width / 2 + to.width / 2
+	extra10.x = half.x + half.width / 2 + extra9.width / 2
+	to.x = extra10.x + extra10.width / 2 + to.width / 2
 	past.x = to.x + to.width / 2 + past.width / 2
 
 	-- line 5
@@ -250,7 +261,8 @@ function position()
 	-- line 9
 	nineNum.x = it.x - it.width / 2 + tenNum.width / 2
 	tenNum.x = nineNum.x + nineNum.width / 2 + tenNum.width / 2
-	elevenNum.x = tenNum.x + tenNum.width / 2 + elevenNum.width / 2
+	extra11.x = tenNum.x + tenNum.width / 2 + extra11.width / 2
+	elevenNum.x = extra11.x + extra11.width / 2 + elevenNum.width / 2
 
 	-- line 10
 	twelveNum.x = it.x - it.width / 2 + twelveNum.width / 2
@@ -272,10 +284,12 @@ function position()
 
 	-- line 3
 	ten.y = und.y + und.height / 3 + ten.height / 3
+	extra9.y = ten.y
 	twenty.y = ten.y
 
 	-- line 4
 	half.y = ten.y + ten.height / 3 + half.height / 3
+	extra10.y = half.y
 	to.y = half.y
 	past.y = to.y
 
@@ -302,6 +316,7 @@ function position()
 	-- line 9
 	nineNum.y = sevenNum.y + sevenNum.height / 3 + nineNum.height / 3
 	tenNum.y = nineNum.y
+	extra11.y = nineNum.y
 	elevenNum.y = nineNum.y
 
 	-- line 10
